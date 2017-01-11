@@ -1,0 +1,98 @@
+html, body {
+  margin: 0;
+}
+
+h2, a {
+  font-family: Ubuntu, sans-serif;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: Helvetica, Arial, sans-serif; 
+}
+
+a.btn:hover {
+  background:#ffa800;
+  color:#000;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.container form{
+  padding: 20px;
+  position: relative;
+  font-family: Ubuntu,Arial, sans-serif;
+
+}
+
+.main {
+  text-align: center;
+  background: url("http://static.giantbomb.com/uploads/original/0/3068/1405915-bridges_2.jpg") no-repeat center center;
+  background-size: cover;
+  height: 500px;
+}
+
+.main .container {
+  position: relative;
+  top: 10px;
+}
+
+.main h1 {
+  font-family: 'Bungee shade';
+  color: #800000;
+  margin: 0;
+  font-size: 100px;
+}
+
+.main h1:hover{
+  color:#000;
+}
+
+.main p {
+  color: #800000;
+  margin: 0 0 20px 0;
+  font-size: 18px;
+}
+
+.main .btn {
+  background-color: #1c1c1c;
+  color: #fff;
+  font-size: 18px;
+  padding: 8px 30px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.supporting {
+  background-color: #1c1c1c;
+  padding: 30px 0 100px;
+  text-align: center;
+  height: 60px;
+}
+
+.supporting .col {
+  float: left;
+  padding: 10px;
+  width: 28%;
+}
+
+.supporting h2 {
+  color: #ffa800;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.supporting p {
+  color: #efefef;
+  font-size: 15px;
+  line-height: 20px;
+  margin-bottom: 20px;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+/*.clearfix {
+  clear: both;
+}*/
